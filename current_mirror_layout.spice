@@ -1,0 +1,30 @@
+* SPICE3 file created from current_mirror_layout.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 a_139_n56# a_105_40# gnd Gnd nfet w=5 l=2
++  ad=119 pd=70 as=825 ps=232
+M1001 a_296_n58# a_105_40# gnd Gnd nfet w=31 l=2
++  ad=961 pd=186 as=0 ps=0
+M1002 vdd V_biasp V_bias3 vdd pfet w=152 l=2
++  ad=9301 pd=748 as=6232 ps=386
+M1003 V_bias1 V_bias3 a_296_n58# Gnd nfet w=31 l=2
++  ad=465 pd=92 as=0 ps=0
+M1004 a_162_n31# a_105_40# gnd Gnd nfet w=20 l=4
++  ad=1800 pd=300 as=0 ps=0
+M1005 V_bias2 V_bias3 a_162_n31# Gnd nfet w=100 l=2
++  ad=1500 pd=230 as=0 ps=0
+M1006 vdd V_biasp a_105_40# vdd pfet w=67 l=2
++  ad=0 pd=0 as=2747 ps=216
+M1007 V_bias3 V_bias3 gnd Gnd nfet w=4 l=4
++  ad=56 pd=36 as=0 ps=0
+M1008 a_237_60# V_bias2 V_bias1 vdd pfet w=40 l=2
++  ad=1028 pd=182 as=720 ps=116
+M1009 vdd V_bias1 a_237_60# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 a_105_40# V_bias3 a_139_n56# Gnd nfet w=4 l=2
++  ad=68 pd=42 as=0 ps=0
+M1011 vdd V_bias2 V_bias2 vdd pfet w=6 l=4
++  ad=0 pd=0 as=240 ps=92
+C0 gnd Gnd 4.15fF
+C1 vdd Gnd 81.65fF
